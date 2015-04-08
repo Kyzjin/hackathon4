@@ -11,7 +11,7 @@ var tabGroup = Titanium.UI.createTabGroup();
 //
 var win1 = Titanium.UI.createWindow({  
     title:'Friday, April 17th',
-    backgroundImage:"pictures/banner.jpg"
+    backgroundImage:"images/banner.jpg"
 });
 var tab1 = Titanium.UI.createTab({  
     icon:'KS_nav_ui.png',
@@ -77,7 +77,7 @@ win1.add(label1);
 //
 var win2 = Titanium.UI.createWindow({  
     title:'Contact Information',
-    backgroundImage:'pictures/banner.jpg',
+    backgroundImage:'images/banner.jpg',
     layout:'vertical',
 });
 var tab2 = Titanium.UI.createTab({  
@@ -99,7 +99,7 @@ win2.add(label2);
 //tab 3
 var win3 = Titanium.UI.createWindow({  
     title:'Saturday, April 18th',
-    backgroundImage:"pictures/banner.jpg"
+    backgroundImage:"images/banner.jpg"
 });
 var tab3 = Titanium.UI.createTab({  
     icon:'KS_nav_ui.png',
